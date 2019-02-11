@@ -5,6 +5,11 @@
     dockercompose
     GCP account with admin privileges.
     
+  ##### to test the app
+  execute fortunescrapper.py script using python installed already.
+  $ python fortunescrapper.py.
+  
+  It will create html file click on it, you can see random message generated.
     
  #### How the  service can be provision,orchestrate and maintain.
  
