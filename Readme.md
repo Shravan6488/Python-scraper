@@ -16,4 +16,4 @@
     - This whole Kuberenetes engine can be monitored using Grafana and Prometheus in a dashboard.
  
  
-![Alt text](https://cdn-images-1.medium.com/max/2000/1*fqlivmOGP9jJrja4lWT6pA.png)
+![Alt text](https://cdn-images-1.medium.com/max/2000/1*30p6uwfaCfrQFvvfJuMozg.png)
