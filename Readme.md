@@ -12,7 +12,7 @@
     - we push this image to google registery
     - Using kubectl command we can deploy,scale and update the images and run the services.
     - This kubectle using minikube as VM where master k8's is running which makes API calls to pods to check the service ports
-    - This whole this runs with set of command lines which i have wrote in seperate .sh file for reference
+    - This whole this runs with set of command lines which i have wrote in seperate kubectlcommands file for reference
     - Below instructions and image defines how this works
     -- Kubectl command tells the cluster Master to create a Deployment.
     -- The Master checks for available nodes and schedules app instances (Pods) onto Nodes.
