@@ -1,0 +1,18 @@
+$ minikube start
+$ kubectl cluster-info
+##Kubernetes master is running at https://172.17.0.15:8443
+ $kubectl run kubernetes-bootcamp — image=gcr.io/google samples/pythoncluster:v1 — port=8080
+ #####deployment.apps/pythoncluster created
+ 
+ $ kubectl get deployments
+ will display the deplyoments
+ 
+ $ kubectl get pods -o wide
+NAME      READY     STATUS    RESTARTS   AGE       IP           NODE
+...   1/1       Running   0          41s       172.18.0.7   minikube
+...   1/1       Running   0          41s       172.18.0.5   minikube
+ $ kubectl scale deployments/pythoncluster --replicas=2
+deployment.extensions/pythoncluster scaled
+
+$ kubectl set image deployments/kubernetes-bootcamp kubernetes-bootcamp=jocatalin/pythoncluster:v2
+deployment.extensions/pythoncluster image updated
