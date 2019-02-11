@@ -3,7 +3,7 @@
     ###Docker
     git -- https://www.atlassian.com/git/tutorials/install-git
     dockercompose
-    Amazon account with admin privileges.
+    GCP account with admin privileges.
     
     
  #### How to provision this app
